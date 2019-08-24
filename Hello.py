@@ -1,2 +1,4 @@
-#! /usr/bin/python
-Print "My First Pipeline"
+#!/usr/bin/python
+
+Print("My First Pipeline")
+
