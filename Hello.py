@@ -1,4 +1,4 @@
 #!/usr/bin/python
 
-Print("My First Pipeline")
+print("My First Pipeline")
 
