@@ -29,8 +29,8 @@ print(ec2)
 
 
 x=2
-y=3
-z=4
+y=2
+z=2
 if (x==y) and (x==z):
 	print("Condition matched")
 else:
