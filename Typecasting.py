@@ -1,17 +1,19 @@
 
 #!/usr/bin/python
+'''
 x=1
 print(type(x))
 x=str(x)
 print(type(x))
-
 '''
+
 def demo_func(x,y=5):
   z=x+y
   return z
 
 print(demo_func(4))
 
+'''
 import json
 
 ec2 = '{ "region":"us-east1", "count":3, "type":"t2.micro"}'
