@@ -10,4 +10,5 @@ instances = ec2.create_instances(
      MaxCount=2,
      InstanceType='t2.micro',
      KeyName='python-key'
+     region_name='us-east-2'
  )
