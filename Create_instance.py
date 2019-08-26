@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import boto3
 
-ec2 = boto3.resource('ec2')
+ec2 = boto3.resource('ec2', region_name='us-east-2')
 
 #define your instance
 instances = ec2.create_instances(
@@ -10,5 +10,5 @@ instances = ec2.create_instances(
      MaxCount=2,
      InstanceType='t2.micro',
      KeyName='python-key'
-     region_name='us-east-2'
+     
  )
