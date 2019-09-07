@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import boto3
 
-ec2 = boto3.resource('ec2', region_name='us-east-2', aws_access_key_id="AKIAQ4DXDKQAR3DBWOFO", aws_secret_access_key="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")
+ec2 = boto3.resource('ec2', region_name='us-east-2', aws_access_key_id="AKIAQ4DXDKQASWHXIMMI", aws_secret_access_key="VHcWILIyQW+aAKY/RHCRgpeLCkACfSwYA2N11RTd")
 
 #define your instance
 instances = ec2.create_instances(
